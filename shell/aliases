@@ -1,0 +1,4 @@
+alias ls='ls --group-directories-first --color=auto'
+alias ll='ls -lahF'
+
+alias mkdir='mkdir -pv'
