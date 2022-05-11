@@ -1,2 +1,3 @@
-# .dotfiles
-Dot files containing personal configurations 
+# dotfiles
+
+This repository contains personal configuration files - dotfiles.
