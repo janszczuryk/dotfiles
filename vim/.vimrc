@@ -11,7 +11,7 @@ set hlsearch
 set ignorecase
 set incsearch
 set smartcase
-
+  
 " Performance
 set complete-=i
 set lazyredraw
@@ -33,7 +33,7 @@ set tabpagemax=50
 set number
 set mouse=a
 set title
-" set background=dark
+set background=dark
 set noerrorbells
 
 " Miscellaneous
@@ -41,5 +41,5 @@ set autoread
 set backupdir=~/.cache/vim
 set confirm
 set history=1000
-set spell
+" set spell
 
