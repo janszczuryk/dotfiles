@@ -41,5 +41,5 @@ set autoread
 set backupdir=~/.cache/vim
 set confirm
 set history=1000
-" set spell
+set nospell
 
