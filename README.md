@@ -8,8 +8,8 @@ Files from individual directories should be placed in corresponding places in us
 ```bash
 git clone https://github.com/janszczuryk/dotfiles.git
 cd dotfiles/
-ln -s ./vim/.vimrc ~/.vimrc
-ln -s ./bash/.bash_aliases ~/.bash_aliases
+ln -s "$(pwd)/vim/.vimrc" ~/.vimrc
+ln -s "$(pwd)/bash/.bash_aliases" ~/.bash_aliases
 ```
 
 ```bash
