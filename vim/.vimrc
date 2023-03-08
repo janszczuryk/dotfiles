@@ -43,3 +43,9 @@ set confirm
 set history=1000
 set nospell
 
+" Other file extension support
+augroup twig_ft
+  au!
+  autocmd BufNewFile,BufRead *.html.twig set syntax=html
+  autocmd BufNewFile,BufRead *.twig set syntax=html
+augroup END
