@@ -1,5 +1,20 @@
+# ls and derivative
 alias ls='ls --group-directories-first --color=auto'
-alias ll='ls -vlahF --color=auto'
+alias ll='ls -vlahF'
 
+# turn on interactive mode + more verbose
 alias mkdir='mkdir -pv'
+alias cp='cp -iv'
+alias mv='mv -iv'
+alias rm='rm -vI'
+alias bc='bc -ql'
+
+# color output
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias diff='diff --color=auto'
+alias ip='ip -color=auto'
+
+# misc
 alias cpv='rsync -ah --info=progress2'
