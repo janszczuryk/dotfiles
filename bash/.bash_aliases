@@ -18,3 +18,7 @@ alias ip='ip -color=auto'
 
 # misc
 alias cpv='rsync -ah --info=progress2'
+alias open='xdg-open'
+alias xclip='xclip -selection c'
+alias flex='neofetch'
+
