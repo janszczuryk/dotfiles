@@ -20,7 +20,7 @@ set lazyredraw
 set display+=lastline
 set encoding=utf-8
 set linebreak
-set scrolloff=1
+set scrolloff=5
 set sidescrolloff=5
 syntax enable
 set wrap
