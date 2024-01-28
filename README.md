@@ -5,16 +5,28 @@ Files from individual directories should be placed in corresponding places in us
 
 ## Installation
 
+Clone the repo:
 ```bash
 git clone https://github.com/janszczuryk/dotfiles.git
 cd dotfiles/
+```
+
+Vim:
+```bash
 ln -s "$(pwd)/vim/.vimrc" ~/.vimrc
-ln -s "$(pwd)/bash/.bash_aliases" ~/.bash_aliases
 mkdir -pv ~/.cache/vim
 ```
 
+Aliases - **bash**:
 ```bash
-# Refresh bash to make aliases work
+ln -s "$(pwd)/shell/.aliases" ~/.bash_aliases
 source ~/.bashrc
 ```
 
+Aliases - **zsh**:
+```bash
+mkdir -pv "$ZSH_CUSTOM/plugins/my-aliases"
+ln -s "$(pwd)/shell/.aliases" "$ZSH_CUSTOM/plugins/my-aliases/my-aliases.plugin.zsh"
+# edit .zshrc and add `my-aliases` as plugin
+source ~/.zshrc
+```
