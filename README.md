@@ -17,6 +17,11 @@ ln -s "$(pwd)/vim/.vimrc" ~/.vimrc
 mkdir -pv ~/.cache/vim
 ```
 
+Oh My ZSH - **zsh**:
+```sh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
 Aliases - **zsh**:
 ```sh
 mkdir -pv "$ZSH_CUSTOM/plugins/my-aliases"
