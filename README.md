@@ -17,12 +17,6 @@ ln -s "$(pwd)/vim/.vimrc" ~/.vimrc
 mkdir -pv ~/.cache/vim
 ```
 
-Aliases - **bash**:
-```sh
-ln -s "$(pwd)/shell/.aliases" ~/.bash_aliases
-source ~/.bashrc
-```
-
 Aliases - **zsh**:
 ```sh
 mkdir -pv "$ZSH_CUSTOM/plugins/my-aliases"
