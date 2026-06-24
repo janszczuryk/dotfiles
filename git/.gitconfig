@@ -1,0 +1,15 @@
+[user]
+	email = jan.szczuryk@gmail.com
+	name = Jan Szczuryk
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+[pull]
+	rebase = true
+[rebase]
+	autoStash = true
+[core]
+	autocrlf = input
+[push]
+	autoSetupRemote = true
