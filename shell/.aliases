@@ -1,5 +1,5 @@
 # ls and derivative
-alias ls='ls --group-directories-first --color=auto'
+alias ls='ls --group-directories-first --time-style=long-iso --color=auto'
 alias ll='ls -vlahF'
 
 # turn on interactive mode + more verbose
